@@ -23,6 +23,13 @@ public function login(){
 }
 
 
+public function buysalerent(){
+    return view('pages.buysalerent');
+}
+
+public function property(){
+    return view('pages.propertydetail');
+}
 
 
 }

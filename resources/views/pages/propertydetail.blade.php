@@ -1,8 +1,8 @@
-<?php include'header.php';?>
+@include('includes.header')
 <!-- banner -->
 <div class="inside-banner">
-  <div class="container"> 
-    <span class="pull-right"><a href="#">Home</a> / Buy</span>
+  <div class="container">
+    <span class="pull-right"><a href="/">Home</a> / Buy</span>
     <h2>Buy</h2>
 </div>
 </div>
@@ -20,27 +20,27 @@
 <div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="images/properties/4.jpg" class="img-responsive img-circle" alt="properties"/></div>
                 <div class="col-lg-8 col-sm-7">
-                  <h5><a href="property-detail.php">Integer sed porta quam</a></h5>
+                  <h5><a href="{{url('properties')}}">Integer sed porta quam</a></h5>
                   <p class="price">$300,000</p> </div>
               </div>
 <div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="images/properties/1.jpg" class="img-responsive img-circle" alt="properties"/></div>
                 <div class="col-lg-8 col-sm-7">
-                  <h5><a href="property-detail.php">Integer sed porta quam</a></h5>
+                  <h5><a href="{{url('properties')}}">Integer sed porta quam</a></h5>
                   <p class="price">$300,000</p> </div>
               </div>
 
 <div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="images/properties/3.jpg" class="img-responsive img-circle" alt="properties"/></div>
                 <div class="col-lg-8 col-sm-7">
-                  <h5><a href="property-detail.php">Integer sed porta quam</a></h5>
+                  <h5><a href="{{url('properties')}}">Integer sed porta quam</a></h5>
                   <p class="price">$300,000</p> </div>
               </div>
 
 <div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="images/properties/2.jpg" class="img-responsive img-circle" alt="properties"/></div>
                 <div class="col-lg-8 col-sm-7">
-                  <h5><a href="property-detail.php">Integer sed porta quam</a></h5>
+                  <h5><a href="{{url('properties')}}">Integer sed porta quam</a></h5>
                   <p class="price">$300,000</p> </div>
               </div>
 
@@ -81,7 +81,7 @@
         <!-- Item 2 -->
         <div class="item">
           <img src="images/properties/2.jpg" class="properties" alt="properties" />
-         
+
         </div>
         <!-- #Item 2 -->
 
@@ -94,7 +94,7 @@
         <!-- Item 4 -->
         <div class="item ">
           <img src="images/properties/3.jpg" class="properties" alt="properties" />
-          
+
         </div>
         <!-- # Item 4 -->
       </div>
@@ -104,7 +104,7 @@
 <!-- #Slider Ends -->
 
   </div>
-  
+
 
 
 
@@ -123,7 +123,7 @@
 <div class="property-info">
 <p class="price">$ 200,000,000</p>
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span> 344 Villa, Syndey, Australia</p>
-  
+
   <div class="profile">
   <span class="glyphicon glyphicon-user"></span> Agent Details
   <p>John Parker<br>009 229 2929</p>
@@ -145,7 +145,7 @@
                 <textarea rows="6" class="form-control" placeholder="Whats on your mind?"></textarea>
       <button type="submit" class="btn btn-primary" name="Submit">Send Message</button>
       </form>
- </div>         
+ </div>
 </div>
   </div>
 </div>
@@ -154,4 +154,4 @@
 </div>
 </div>
 
-<?php include'footer.php';?>
+@include('includes.footer')

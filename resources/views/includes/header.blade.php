@@ -5,6 +5,8 @@
 <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+
+
  	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/style.css"/>
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -81,9 +83,10 @@
 </a>
 
               <ul class="pull-right">
-                <li><a href="buysalerent.php">Buy</a></li>
-                <li><a href="buysalerent.php">Sale</a></li>
-                <li><a href="buysalerent.php">Rent</a></li>
+                <li><a href="{{url('buysalerents')}}">Buy</a></li>
+                <li><a href="{{url('buysalerents')}}">Sale</a></li>
+                <li><a href="{{url('buysalerents')}}">Rent</a></li>
+                <li><a href="{{url('buysalerents')}}">Book</a></li>
               </ul>
 </div>
 <!-- #Header Starts -->
